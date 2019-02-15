@@ -5,7 +5,7 @@ Language: C
 Date: May 12, 2018
 
 -- Comment --
-All tests passed except for the following input format:  3782-822-463-10005
+All tests passed except for the following input format:  dddd-ddd-ddd-ddddd
 */
 
 #include <stdio.h>

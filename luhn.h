@@ -36,18 +36,18 @@ char* determineCardType(long long int card_number) {
 
     if (first < 10) {
         if (first == 4)
-            return "VISA";
+            return "VISA CARD";
         else
             return "";
     }
 
     else {
         if (first == 34 || first == 37)
-            return "AMEX";
+            return "AMERICAN EXPRESS";
         else if (first >= 51 && first <= 55)
-            return "MASTER";
+            return "MASTER CARD";
         else if (first >= 40 && first < 49)
-            return "VISA";
+            return "VISA CARD";
         else
             return "";
 
